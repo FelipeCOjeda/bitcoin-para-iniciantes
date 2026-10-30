@@ -1,6 +1,6 @@
-# Tutoriais e passo-a-passos
+# Escola Bitcoin
 
-Página da playlist **Tutoriais e passo-a-passos** do canal [Bitcoin e Liberdade](https://www.youtube.com/@BitcoineLiberdade).
+Site https://escolabitcoin.com com duas abas: **Tutoriais** (playlist *Tutoriais e passo-a-passos* do [canal no YouTube](https://www.youtube.com/@BitcoineLiberdade)) e **Mentoria e Consultoria**.
 
 Playlist: https://www.youtube.com/playlist?list=PL1TShuYSNH-t3VCQK-YwCfdtMS2iO_ybV
 

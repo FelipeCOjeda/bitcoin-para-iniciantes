@@ -38,3 +38,18 @@ COMANDOS / ALTERAÇÕES
 - rm videos.json; python scripts/update_playlist.py -> 40 vídeos
 - index.html: título, descrição, h1 e lead agora de "Tutoriais e Passo a passo"; og:image = 1º vídeo.
 - README.md: título atualizado.
+
+=== 2026-10-30 (3) ===
+PEDIDOS
+- Domínio escolabitcoin.com já apontado (DNS GoDaddy: 4 A do GitHub Pages + CNAME www).
+- Criar aba sobre mentoria e consultoria; trocar o título "Bitcoin e Liberdade" para "Escola Bitcoin".
+COMANDOS / ALTERAÇÕES
+- echo escolabitcoin.com > CNAME; git push (rejeitado: Action já tinha commitado; git pull --rebase; push)
+- gh api -X PUT repos/FelipeCOjeda/bitcoin-para-iniciantes/pages -f cname=escolabitcoin.com -F https_enforced=true
+  -> cname ativo, HTTPS forçado, certificado aprovado; https://escolabitcoin.com responde 200.
+- index.html: marca "Escola Bitcoin"; abas por #hash (#tutoriais, #mentoria); nova seção Mentoria e Consultoria
+  (2 formatos, temas, como funciona, sem preços); botão WhatsApp lê a constante WHATSAPP (vazia = botão oculto).
+- README.md: título e descrição atualizados.
+- Teste local (python -m http.server 8765, encerrado): troca de abas OK.
+PENDENTE
+- Usuário informar número do WhatsApp (DDI+DDD) para preencher WHATSAPP e então fazer push.
