@@ -1,0 +1,28 @@
+REGISTRO — bitcoin-para-iniciantes
+(Só acrescentar no fim. Sem senhas/chaves/tokens.)
+
+=== 2026-10-30 ===
+PEDIDOS
+- Criar uma page no GitHub para a playlist "Bitcoin para Iniciantes" do canal.
+  Playlist: https://www.youtube.com/playlist?list=PL1TShuYSNH-urKBB_IDW-lgvpqLNe6ZLM
+- Atualizar sozinha quando um vídeo for incluído na playlist.
+
+RESPOSTAS / DECISÕES
+- Site estático (index.html + videos.json) para GitHub Pages: player embutido da playlist
+  (sempre atual) + grade de vídeos com busca.
+- videos.json é gerado por scripts/update_playlist.py (lê a página pública do YouTube, com
+  paginação; 148 vídeos na primeira execução). Sem API key.
+- GitHub Action a cada 3 h (.github/workflows/atualizar.yml) roda o script e faz commit se mudou.
+
+COMANDOS EXECUTADOS
+- mkdir bitcoin-para-iniciantes; curl da página da playlist; python (parse ytInitialData)
+- python scripts/update_playlist.py  -> 148 vídeos
+- gh repo create FelipeCOjeda/bitcoin-para-iniciantes --public; git init/add/commit/push
+- gh api (ativar GitHub Pages na branch main, raiz)
+
+ALTERAÇÕES POR ARQUIVO
+- index.html: página (tema escuro/claro, player, busca, cards).
+- scripts/update_playlist.py: coleta da playlist; não sobrescreve se vier lista vazia/suspeita.
+- .github/workflows/atualizar.yml: agendamento + botão manual.
+- videos.json: lista gerada.
+- README.md, .nojekyll, REGISTRO.txt: novos.
