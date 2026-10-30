@@ -53,3 +53,7 @@ COMANDOS / ALTERAÇÕES
 - Teste local (python -m http.server 8765, encerrado): troca de abas OK.
 PENDENTE
 - Usuário informar número do WhatsApp (DDI+DDD) para preencher WHATSAPP e então fazer push.
+
+=== 2026-10-30 (4) ===
+- Usuário informou o WhatsApp (DDD 11); WHATSAPP definido em index.html (formato 55 + número) e publicado.
+- git pull --rebase; git push.
