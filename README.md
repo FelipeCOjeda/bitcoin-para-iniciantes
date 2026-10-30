@@ -1,8 +1,8 @@
-# Bitcoin para Iniciantes
+# Tutoriais e passo-a-passos
 
-Página da playlist **Bitcoin para Iniciantes** do canal [Bitcoin e Liberdade](https://www.youtube.com/@BitcoineLiberdade).
+Página da playlist **Tutoriais e passo-a-passos** do canal [Bitcoin e Liberdade](https://www.youtube.com/@BitcoineLiberdade).
 
-Playlist: https://www.youtube.com/playlist?list=PL1TShuYSNH-urKBB_IDW-lgvpqLNe6ZLM
+Playlist: https://www.youtube.com/playlist?list=PL1TShuYSNH-t3VCQK-YwCfdtMS2iO_ybV
 
 ## Como se atualiza sozinha
 

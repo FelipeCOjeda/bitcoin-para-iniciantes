@@ -11,7 +11,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-PLAYLIST_ID = "PL1TShuYSNH-urKBB_IDW-lgvpqLNe6ZLM"
+PLAYLIST_ID = "PL1TShuYSNH-t3VCQK-YwCfdtMS2iO_ybV"
 OUT = Path(__file__).resolve().parent.parent / "videos.json"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
 
@@ -90,7 +90,7 @@ def main():
 
     payload = {
         "playlist_id": PLAYLIST_ID,
-        "title": meta.get("title", "Bitcoin para Iniciantes"),
+        "title": meta.get("title", "Tutoriais e passo-a-passos"),
         "videos": unique,
     }
     # Só reescreve (e muda a data) se a lista mudou, para não gerar commits à toa.

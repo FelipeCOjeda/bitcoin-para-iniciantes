@@ -26,3 +26,15 @@ ALTERAÇÕES POR ARQUIVO
 - .github/workflows/atualizar.yml: agendamento + botão manual.
 - videos.json: lista gerada.
 - README.md, .nojekyll, REGISTRO.txt: novos.
+
+=== 2026-10-30 (2) ===
+PEDIDOS
+- Usuário informou domínio escolabitcoin.com (DNS está na GoDaddy, não na Cloudflare; aguardando ele criar
+  4 registros A do GitHub Pages + CNAME www; depois adicionar arquivo CNAME e configurar Pages).
+- Enviou nova playlist https://youtube.com/playlist?list=PL1TShuYSNH-t3VCQK-YwCfdtMS2iO_ybV
+  ("Tutoriais e passo-a-passos") e escolheu SUBSTITUIR a playlist anterior na página.
+COMANDOS / ALTERAÇÕES
+- sed trocando o ID da playlist em index.html, scripts/update_playlist.py, README.md
+- rm videos.json; python scripts/update_playlist.py -> 40 vídeos
+- index.html: título, descrição, h1 e lead agora de "Tutoriais e Passo a passo"; og:image = 1º vídeo.
+- README.md: título atualizado.
