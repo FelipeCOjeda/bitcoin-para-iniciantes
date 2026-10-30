@@ -57,3 +57,16 @@ PENDENTE
 === 2026-10-30 (4) ===
 - Usuário informou o WhatsApp (DDD 11); WHATSAPP definido em index.html (formato 55 + número) e publicado.
 - git pull --rebase; git push.
+
+=== 2026-10-30 (5) ===
+PEDIDO
+- Os dois sites (escolabitcoin.com e videos.mosheinternacional.com) devem ser atualizados pelo cron
+  (Worker Cloudflare github-dispatch-cron, a cada 3 h) com vídeos e artigos, se for o caso.
+PROBLEMA
+- Action falhava: "Lista suspeita (31 vs 40)". A playlist "Tutoriais e passo-a-passos" passou de 40 para 31
+  vídeos (YouTube declara "31 vídeos"); a trava de 80% bloqueava a atualização.
+ALTERAÇÕES
+- scripts/update_playlist.py: a trava aceita o encolhimento quando o total encontrado bate com o total
+  declarado pelo YouTube na página ("N vídeos"); continua bloqueando quedas sem confirmação.
+- videos.json: 40 -> 31 vídeos (teste local).
+- Este site tem só vídeos (sem artigos).
