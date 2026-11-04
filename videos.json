@@ -8,23 +8,23 @@
    "duration": ""
   },
   {
-   "id": "_7ieKoWXKOc",
-   "title": "Bitcoin Onchain ou Lightning Network? Quando utilizar cada rede?",
-   "duration": ""
-  },
-  {
    "id": "J34B-on_LsM",
    "title": "Como aceitar BITCOIN no seu negocio!",
    "duration": ""
   },
   {
-   "id": "4uM_2r9fvaM",
-   "title": "Protege DOT/PRODOT: Como Marcar? Tutorial Passo-a-passo",
+   "id": "_7ieKoWXKOc",
+   "title": "Bitcoin Onchain ou Lightning Network? Quando utilizar cada rede?",
    "duration": ""
   },
   {
    "id": "Myr0zaVm82k",
    "title": "Tutorial: Primeiros passos na Wallet of Satoshi",
+   "duration": ""
+  },
+  {
+   "id": "oYYcpPiGcd8",
+   "title": "Tutorial rápido para comprar Bitcoin: Como comprar e sacar na Bipa #bitcoin",
    "duration": ""
   },
   {
@@ -48,13 +48,18 @@
    "duration": ""
   },
   {
-   "id": "YwhhhWyl7LA",
-   "title": "CUIDADO! O Fantasma da Passphrase (no Ian Coleman, Sparrow e Bluewallet)",
+   "id": "jASupLBncuI",
+   "title": "PASSPHRASE Não é Senha: O Erro que Pode Bloquear seus Bitcoins",
    "duration": ""
   },
   {
-   "id": "jASupLBncuI",
-   "title": "PASSPHRASE Não é Senha: O Erro que Pode Bloquear seus Bitcoins",
+   "id": "HTgIbJr9x20",
+   "title": "OneKey Classic do ZERO: Seed, Passphrase e Transação de Bitcoin",
+   "duration": ""
+  },
+  {
+   "id": "4uM_2r9fvaM",
+   "title": "Protege DOT/PRODOT: Como Marcar? Tutorial Passo-a-passo",
    "duration": ""
   },
   {
@@ -78,13 +83,8 @@
    "duration": ""
   },
   {
-   "id": "HTgIbJr9x20",
-   "title": "OneKey Classic do ZERO: Seed, Passphrase e Transação de Bitcoin",
-   "duration": ""
-  },
-  {
-   "id": "A2g2XoZuX9w",
-   "title": "Tutorial Onekey + como usar a LN",
+   "id": "JLAoDIaga1U",
+   "title": "NOSTR: A Rede Social Descentralizada que Vai Substituir o Twitter? (Guia Completo + Zaps e Lives)",
    "duration": ""
   },
   {
@@ -118,6 +118,11 @@
    "duration": ""
   },
   {
+   "id": "dvF4OpCZ42A",
+   "title": "MULTISIG sem vacilo - Tutorial",
+   "duration": ""
+  },
+  {
    "id": "ThNImHOw0Ss",
    "title": "CARTÃO SEM KYC: Testei no Brasil e a Compra Foi APROVADA!",
    "duration": ""
@@ -138,30 +143,15 @@
    "duration": ""
   },
   {
-   "id": "dvF4OpCZ42A",
-   "title": "MULTISIG sem vacilo - Tutorial",
-   "duration": ""
-  },
-  {
    "id": "bv3ymD2bSEg",
    "title": "ALAVANCAGEM em Bitcoin: como FUNCIONA, como NÃO QUEBRAR e como SAIR no LUCRO (LN Markets)",
-   "duration": ""
-  },
-  {
-   "id": "JLAoDIaga1U",
-   "title": "NOSTR: A Rede Social Descentralizada que Vai Substituir o Twitter? (Guia Completo + Zaps e Lives)",
    "duration": ""
   },
   {
    "id": "xEWf1K3jvsk",
    "title": "Como acessar a MEMPOOL via Deepweb no BRAVE - Utilizando TOR para acompanhar transações de #bitcoin",
    "duration": ""
-  },
-  {
-   "id": "oYYcpPiGcd8",
-   "title": "Tutorial rápido para comprar Bitcoin: Como comprar e sacar na Bipa #bitcoin",
-   "duration": ""
   }
  ],
- "updated": "2026-10-31T12:34:19Z"
+ "updated": "2026-11-04T03:05:13Z"
 }
